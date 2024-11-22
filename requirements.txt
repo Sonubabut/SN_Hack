@@ -1,0 +1,3 @@
+opensearch-py
+openai
+python-dotenv
