@@ -355,9 +355,9 @@ def main():
         st.markdown("### Applications Under Observability")
         st.markdown(
             """
-            [Meddy - SambaNova Cloud - Azure](https://meddy.azurewebsites.net/)
-            [Legal Expert - SambaNova Cloud - AWS](https://master.ddk2t95xjqic2.amplifyapp.com/)
-            [Flash AI - SambaNova Cloud - GCP](https://flashai-713269396353.us-central1.run.app/)
+           1. [Meddy - SambaNova Cloud - Azure](https://meddy.azurewebsites.net/)
+           2. [Legal Expert - SambaNova Cloud - AWS](https://master.ddk2t95xjqic2.amplifyapp.com/)
+           3. [Flash AI - SambaNova Cloud - GCP](https://flashai-713269396353.us-central1.run.app/)
             """,
             unsafe_allow_html=True
         )
