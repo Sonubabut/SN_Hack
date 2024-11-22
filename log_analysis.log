@@ -1,0 +1,46 @@
+2024-11-21 15:40:53,125 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:40:53,159 - __main__ - ERROR - Comprehensive error: Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\SambaKit\main.py", line 192, in main
+    logs = opensearch_client.search_logs(json.loads(search_query))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2024-11-21 15:41:49,408 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:41:49,418 - __main__ - ERROR - Comprehensive error: Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\SambaKit\main.py", line 269, in main
+    logs = opensearch_client.search_logs(json.loads(search_query))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2024-11-21 15:45:05,481 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:45:20,994 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:46:51,689 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:47:21,981 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:47:24,669 - opensearch - INFO - POST https://search-obs-vlgxybk6q4jww7esafnoufxpsa.us-east-2.es.amazonaws.com:443/logs-meddy/_search [status:200 request:2.687s]
+2024-11-21 15:47:34,036 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:22,776 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:26,149 - opensearch - INFO - POST https://search-obs-vlgxybk6q4jww7esafnoufxpsa.us-east-2.es.amazonaws.com:443/logs-meddy/_search [status:200 request:3.370s]
+2024-11-21 15:57:36,107 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:42,232 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:42,936 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:43,208 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:43,781 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-21 15:57:49,072 - opensearch - INFO - POST https://search-obs-vlgxybk6q4jww7esafnoufxpsa.us-east-2.es.amazonaws.com:443/logs-meddy/_search [status:200 request:5.289s]
+2024-11-21 15:57:54,346 - openai._base_client - INFO - Retrying request to /chat/completions in 0.435096 seconds
+2024-11-21 15:58:06,133 - httpx - INFO - HTTP Request: POST https://api.sambanova.ai/v1/chat/completions "HTTP/1.1 200 OK"
